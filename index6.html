@@ -8,10 +8,11 @@
     <script type="text/javascript">
 
     dias = [ 'lunes','martes','miercoles','jueves','viernes','sabado','domingo' ]
-    for ( dia in dias ){
-      console.log( 'Hoy es : ', dias[dia] );
-      if ( dias[dia].toLowerCase()=='domingo' || dias[dia].toLowerCase() == 'sabado' ) {
-        console.log( 'Al fin llego el ', dias[dia]) ;
+
+    for ( i in dias ){
+      console.log( 'Hoy es :', dias[i] );
+      if ( dias[i].toLowerCase() == 'domingo' || dias[i].toLowerCase() == 'sabado' ) {
+        console.log( 'Al fin llego el ', dias[i] );
       }
     }
 
