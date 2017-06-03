@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+    dias = [ 'lunes','martes','miercoles','jueves','viernes','sabado','domingo' ]
+    for ( dia in dias ){
+      console.log( 'Hoy es : ', dias[dia] );
+      if ( dias[dia].toLowerCase()=='domingo' || dias[dia].toLowerCase() == 'sabado' ) {
+        console.log( 'Al fin llego el ', dias[dia]) ;
+      }
+    }
+
+
+    </script>
+  </body>
+</html>
